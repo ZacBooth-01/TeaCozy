@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+    opacity: 0.9;
+    
+}
+
+.header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    margin: 0px auto;
+    width: 100%;
+    align-items: center;
+}
+
+#title {
+    height: 50px;
+    margin-left: 10px;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Italianno', cursive;
+    font-size: 50px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 69px;
+
+}
+
+
+li {
+    display: inline-block;
+    padding: 0 20px;
+    text-decoration: underline;
+}
+
+
+.mainimage {
+    width: 1200px;
+    height: 700px;
+    margin: 0px auto;
+}
+
+.mainimage h2 {
+    background-color: black;
+    width: 1200px;
+
+
+}
+
+.mainimage h4 {
+    background-color: black;
+    width: 1200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
