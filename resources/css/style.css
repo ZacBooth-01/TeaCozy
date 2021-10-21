@@ -14,12 +14,15 @@ html{
     
 }
 
-.header {
+header {
     height: 69px;
     border-bottom: 1px solid seashell;
     margin: 0px auto;
     width: 100%;
     align-items: center;
+    position: fixed;
+    z-index: 10;
+    background-color: black;
 }
 
 #title {
@@ -47,22 +50,32 @@ li {
 }
 
 
-.mainimage {
-    width: 1200px;
+.mission {
+    position: relative;
+    top: 69px;
     height: 700px;
-    margin: 0px auto;
+    width: 1200px;
+    margin: 0 auto;
 }
 
-.mainimage h2 {
-    background-color: black;
+img {
+    height: 700px;
     width: 1200px;
-
-
 }
 
-.mainimage h4 {
+.mission-text {
     background-color: black;
     width: 1200px;
+    height: 100px;
+    position: absolute;
+    top: 300px;
+    
+}
+
+.mission-text h2 {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 
