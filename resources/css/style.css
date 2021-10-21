@@ -108,9 +108,57 @@ img {
     font-size: 20px;
 }
 
+.locations {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
 
 
+.locations h2 {
+    position: absolute;
+    top: 40px;
+    margin-left: 520px;
+}
 
+.locations img {
+    width: 1200px;
+    height: 500px;
+}
+
+.address div {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    margin: 0 20px;
+    position: relative;
+    top: -400px;
+}
+
+.address h3 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.address p {
+    margin-bottom: 50px;
+}
+
+
+.contact {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer{
+    text-align: left;
+}
 
 
 
